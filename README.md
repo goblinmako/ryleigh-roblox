@@ -23,8 +23,20 @@ previous version stays in the history.
    past versions, or just **Download** the current one.
 2. Open the downloaded `.rbxlx` in Roblox Studio (**File → Open from File…**).
 
-## 🔧 Want real code version-control later?
+## 🔧 Open in Studio with Rojo
 
-When the game gets bigger, scripts can be tracked line-by-line using **Rojo**
-(syncs Studio with a folder of script files). Ask and it can be set up then —
-it's an upgrade, not needed to start.
+Rojo syncs this repo's script files directly into Roblox Studio as you edit them — no manual saving needed. Use this when the game has real scripts you want to track line-by-line.
+
+**One-time setup:**
+
+1. Install Rojo on your computer — download the latest release from [rojo.space](https://rojo.space) and put the `rojo` binary somewhere on your PATH (e.g. `/usr/local/bin`).
+2. Inside Roblox Studio, go to **Plugins → Manage Plugins** and install the **Rojo** plugin (search the Roblox plugin marketplace).
+
+**Each time you want to sync:**
+
+1. Open a terminal, `cd` into this repo folder.
+2. Run: `rojo serve`
+3. In Roblox Studio, click the **Rojo** plugin button → **Connect**.
+4. Studio will now stay in sync with the files in `src/` as you edit them.
+
+> **Tip for Ryleigh:** you don't need Rojo to start. Plain file saves (above) are fine. Switch to Rojo when the scripts get big enough that you want to see exactly what changed.
