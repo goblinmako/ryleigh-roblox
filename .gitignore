@@ -1,0 +1,14 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Roblox binary place/model files — commit the .rbxlx (XML) version instead,
+# which GitHub can track far better than the binary .rbxl.
+*.rbxl
+*.rbxm
+
+# Rojo / tooling build output (only relevant if Rojo is added later)
+/build/
+*.rbxlx.lock
