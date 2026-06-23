@@ -1,0 +1,3 @@
+# GitHub language detection
+*.lua linguist-language=Lua
+*.luau linguist-language=Lua
